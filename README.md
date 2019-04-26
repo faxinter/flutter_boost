@@ -20,8 +20,17 @@ You need to add Flutter to your project before moving on.
 Open you pubspec.yaml and add the following line to dependencies:
 
 ```java
-flutter_boost: ^0.0.400
+flutter_boost: ^0.0.411
 ```
+
+or you could rely directly on a Github project tag, for example(recommended)
+```java
+flutter_boost:
+        git:
+            url: 'https://github.com/alibaba/flutter_boost.git'
+            ref: '0.0.411'
+```
+
 
 
 ## Integration with Flutter code.
